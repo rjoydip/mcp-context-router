@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": false,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "types": ["node", "@cloudflare/workers-types"]
+  },
+  "include": [
+    "src",
+    "tests",
+    "scripts",
+    "vite.config.ts",
+    "config/vite.router.ts",
+    "config/vite.worker.ts",
+    "config/playwright.ts"
+  ]
+}
